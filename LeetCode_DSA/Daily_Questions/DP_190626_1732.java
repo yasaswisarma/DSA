@@ -5,6 +5,7 @@
 //         3.  given an array gain where gain[i] is the net gain in altitude between points i and i + 1
 //         4.  that is, gain[i] = altitude[i + 1] - altitude[i]
 
+
 package Daily_Questions;
 
 import java.util.Arrays;
