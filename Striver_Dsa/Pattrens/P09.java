@@ -1,20 +1,20 @@
-package Pattrens;
+ package Pattrens;
 
 import java.util.Scanner;
 
-public class P7 {
+public class P09 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows:");
         int n = sc.nextInt();
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n-i-1; j++){
+        for(int i=n-1; i>=0; i--){
+            for(int j=n-i-1; j>0; j--){
                 System.out.print(" ");
             }
-            for(int j=0; j<2*i+1; j++){
+            for(int j=2*i+1; j>0; j--){
                 System.out.print("*");
             }
-            for(int j=0; j<n-i-1; j++){
+            for(int j=n-i-1; j>0; j--){
                 System.out.print(" ");
             }
             System.out.println();
