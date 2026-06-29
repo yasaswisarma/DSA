@@ -7,6 +7,13 @@
 //            2.  find angle made by minute hand with 12 o'clock => (6*minutes)*6
 //            3.  find the difference between the two angles and if it is greater than 180 then we need to subtract it from 360
 
+//            4.  return the angle
+//         5.  Time Complexity: O(1) as we are performing constant time operations
+//         6.  Space Complexity: O(1) as we are not using any
+
+
+
+
 package Daily_Questions;
 
 class Solution {

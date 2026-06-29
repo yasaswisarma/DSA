@@ -4,6 +4,11 @@
 //         2.  find the maximum value in that array
 //         3.  given an array gain where gain[i] is the net gain in altitude between points i and i + 1
 //         4.  that is, gain[i] = altitude[i + 1] - altitude[i]
+//         5.  return the highest altitude of a point
+//         6.  Time Complexity: O(n) as we are iterating through the array once
+//         7.  Space Complexity: O(n) as we are creating an array to store the altitude at each point
+
+
 
 
 package Daily_Questions;

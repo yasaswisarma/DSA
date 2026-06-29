@@ -3,12 +3,14 @@
 //Approach:1.  create an array for storing the length of the string at each point
 //         2.  traverse the string from left to right and calculate the length of the string at each point and store it in the array
 //         3.  traverse the string from right to left and find the character at the kth position in the final string
+//         4.  return the character at the kth position in the final string
+//         5.  Time Complexity: O(n) as we are traversing the string twice
+//         6.  Space Complexity: O(n) as we are creating an array to store the length of the string at each point
 
 
-
-
+package Daily_Questions;
 class Solution {
-    public char DP_170626_3614(String s, long k) {
+    public char processStr(String s, long k) {
              int n = s.length();
         long[] len = new long[n];
 
@@ -62,11 +64,10 @@ class Solution {
                 }
 
             } else if (ch == '*') {
-                // No action needed in reverse traversal.
-                // len[] already represents the string length after deletion,
-                // so k remains unchanged.
+             
             }
         }
+
         return '.';
     }
 }

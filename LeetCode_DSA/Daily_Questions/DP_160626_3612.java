@@ -2,6 +2,10 @@
 //3612.Process String with Special Operations I
 //Approach:1.  create a StringBuilder to store the result
 //         2.  traverse the string from left to right and perform the operations on the StringBuilder as per the character encountered
+//         3.  return the final string after performing all the operations
+//         4.  Time Complexity: O(n) as we are traversing the string
+//         5.  Space Complexity: O(n) as we are creating a StringBuilder to store the result
+//         5.  Space Complexity: O(n) as we are creating a StringBuilder to store the result
 
 
 
